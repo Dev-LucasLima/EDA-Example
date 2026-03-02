@@ -20,7 +20,7 @@ Desktop.ini
 ############################################
 
 # Maven target directory
-/target/
+*/target/*
 
 # Maven wrapper jar (opcional manter)
 .mvn/wrapper/maven-wrapper.jar
