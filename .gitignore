@@ -1,0 +1,140 @@
+############################################
+# ===== SISTEMA OPERACIONAL =====
+############################################
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################################
+# ===== JAVA + MAVEN =====
+############################################
+
+# Maven target directory
+/target/
+
+# Maven wrapper jar (opcional manter)
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+############################################
+# ===== PYTHON =====
+############################################
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+############################################
+# ===== NODE / JAVASCRIPT =====
+############################################
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (opcional – normalmente manter)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+############################################
+# ===== INTELLIJ IDEA =====
+############################################
+
+.idea/
+*.iml
+*.iws
+out/
+
+############################################
+# ===== VISUAL STUDIO CODE =====
+############################################
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+############################################
+# ===== ARQUIVOS TEMPORÁRIOS =====
+############################################
+
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+############################################
+# ===== DOCKER (se aplicável) =====
+############################################
+
+docker-compose.override.yml
+
+############################################
+# ===== OUTROS =====
+############################################
+
+coverage/
