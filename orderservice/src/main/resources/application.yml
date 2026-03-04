@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: order-service
+
+  datasource:
+    url: ${POSTGRES_DB_URL}
+    username: ${POSTGRES_DB_USERNAME}
+    password: ${POSTGRES_DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  spring:
+    cloud:
+      stream:
+        bindings:
+          orderCreated-out-0:
+            destination: orders-topic # topic name for fraud-analysis-service to consume
+            content-type: application/json
+
+      kafka:
+        binder:
+          brokers: localhost:9092
